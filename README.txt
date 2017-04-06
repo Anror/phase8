@@ -1,0 +1,1 @@
+Open "home.html" and navigate prototype from there.

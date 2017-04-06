@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Links</title>
+  <title>Mentorships</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -68,26 +68,59 @@
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
-      <p><a href="ResourcesFAQ.html">FAQ</a></p>
-      <p><a href="ResourcesTraining.html">Training Resources</a></p>
-      <p><a href="ResourcesLink.html">Useful Links</a></p>
+      <p><a href="Mentorships.html">Search</a></p>
+      <p><a href="SavedMentors.html">Saved Mentors</a></p>
     </div>
     <div class="col-sm-8 text-left"> 
+      <h1>Search for Matches</h1>
+      
+    <form>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+            <input id="loc" type="text" class="form-control" name="loc" placeholder="Location" disabled>
+        </div>
+        
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-briefcase"></i></span>
+            <input id="ind" type="text" class="form-control" name="ind" placeholder="Industry" disabled>
+        </div>
+        
+        <br>
+        <a href="results.html" type="button" class="btn btn-success glyphicon glyphicon-search"> Search</a>
+    </form>
+    <hr>
     
-    <h1>Useful Links</h1>
+    <h2>Results</h2>
     
-    <h4>Canadian Citizenship</h4>
-    <a href="#">http://www.cic.gc.ca/english/citizenship/index.asp</a>
+    <div class="media">
+        <div class="media-left">
+            <img src="img_avatar1.png" class="media-object" style="width:60px">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">David Stuart</h4>
+            <p>Business Management</p>
+            <p>Toronto</p>
+            <a href="messages.html" type="button" class="btn btn-success glyphicon glyphicon-envelope"> Message</a>
+            <a href="SavedMentors.html" type="button" class="btn btn-success glyphicon glyphicon-floppy-disk"> Save</a>
+        </div>
+    </div>
+    <hr>
     
-    <h4>Federal Resources for New Immigrants</h4>
-    <a href="#">http://www.cic.gc.ca/english/residents/new_immigrants.asp</a>
-    
-    <h4>Hire Foreign Workers</h4>
-    <a href="#">http://www.cic.gc.ca/english/hire/index.asp</a>
-    
-    <h4>Work Permits</h4>
-    <a href="#">http://www.cic.gc.ca/english/helpcentre/results-by-topic.asp?top=17</a>
-    
+    <br>
+    <div class="media">
+        <div class="media-left">
+            <img src="img_avatar1.png" class="media-object" style="width:60px">
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">John Smith</h4>
+            <p>Information Technology Management</p>
+            <p>Toronto</p>
+            <a href="messages.html" type="button" class="btn btn-success glyphicon glyphicon-envelope"> Message</a>
+            <a href="SavedMentors.html" type="button" class="btn btn-success glyphicon glyphicon-floppy-disk"> Save</a>
+        </div>
+    </div>
     <hr>
     
     </div>
@@ -101,7 +134,6 @@
     </div>
   </div>
 </div>
-
 
 </body>
 </html>
